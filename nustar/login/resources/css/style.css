@@ -1,0 +1,61 @@
+.card-pf {
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  overflow: hidden;
+}
+
+.card-pf input {
+  border-radius: 5px;
+}
+
+h1#kc-page-title {
+  display: none;
+}
+
+div.kc-logo-text {
+  background-image: url(../img/nustar-logo-text.png);
+  height: 80px;
+}
+
+.login-pf body {
+  background: url(../img/nustar-bg.jpg);
+  background-position: center;
+}
+
+#kc-header-wrapper {
+  padding: 62px 10px 0px;
+}
+
+@media (max-width: 767px) {
+  div.kc-logo-text {
+    height: 45px;
+  }
+  .card-pf {
+    background-color: transparent;
+  }
+}
+
+a#kc-current-locale-link::after {
+  content: "\1F310";
+}
+
+#kc-locale ul {
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+#kc-login {
+  line-height: 1.5;
+}
+
+.copyright {
+  color: #72767b;
+  position: fixed;
+  bottom: 10px;
+  text-align: center;
+  width: 100%;
+}
+
+input:focus {
+  outline: none;
+}
