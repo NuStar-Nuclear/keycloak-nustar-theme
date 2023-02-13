@@ -20,6 +20,7 @@ div.kc-logo-text {
 .login-pf body {
   background: url(../img/nustar-bg.jpg);
   background-position: center;
+  background-size: cover;
 }
 
 #kc-header-wrapper {
