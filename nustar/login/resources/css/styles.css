@@ -60,3 +60,8 @@ a#kc-current-locale-link::after {
 input:focus {
   outline: none;
 }
+
+.pf-c-form-control:hover,
+.pf-c-form-control:focus {
+  padding-bottom: 4px;
+}
