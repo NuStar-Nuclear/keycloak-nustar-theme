@@ -17,14 +17,13 @@ window.onload = () => {
     const usernameInput = document.querySelector("#username");
     const passwordInput = document.querySelector("#password");
     const guestBtn = document.createElement("input");
-    guestBtn.classList.add(...loginBtn.classList.values());
+    guestBtn.classList.add(...loginBtn.classList.values(), "variant");
     const localeLink = document.querySelector("#kc-current-locale-link");
     const text =
       localeLink.textContent === "中文简体" ? "访客登录" : "Sign In as Guest";
     guestBtn.setAttribute("value", text);
     guestBtn.setAttribute("type", "submit");
     guestBtn.style.marginTop = "10px";
-    guestBtn.style.background = "var(--pf-global--palette--blue-300)";
     guestBtn.onclick = function () {
       usernameInput.value = "anonymous";
       passwordInput.value = "111";

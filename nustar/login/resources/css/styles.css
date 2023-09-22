@@ -65,3 +65,7 @@ input:focus {
 .pf-c-form-control:focus {
   padding-bottom: 4px;
 }
+
+.pf-c-button.pf-m-primary.variant {
+  background-color: var(--pf-global--palette--blue-300);
+}
